@@ -1,0 +1,1 @@
+select title, count(title) as words from words inner join dicts on(dict_id=dicts.id) group by title;
